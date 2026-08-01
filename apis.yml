@@ -1,7 +1,24 @@
 aid: procuri
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/procuri.png
 name: Procuri
-description: Procuri is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Procuri (procuri.ai) presents itself as an AI-powered procurement automation
+  platform that uses specialized AI agents to discover and vet suppliers, optimize
+  contract negotiation and pricing, monitor policy and regulatory compliance, and
+  assess supplier and market risk for enterprise procurement teams. It was surfaced
+  as a portfolio-lead stub of insight-partners and added to the API Evangelist network
+  for enrichment; as of this pass the public site publishes no developer/API surface
+  (no docs, developer, API-reference, or OpenAPI pages resolve).
 url: https://raw.githubusercontent.com/api-evangelist/procuri/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Procurement
+- Sourcing
+- Supply Chain
+- Spend Management
+- Contract Management
+- AI Agents
+- Automation
+- Enterprise Software
 apis: []
+common:
+- type: DomainSecurity
+  url: security/procuri-domain-security.yml
+- type: Website
+  url: https://www.procuri.ai/
+- type: PrivacyPolicy
+  url: https://www.procuri.ai/privacy
+- type: Support
+  url: https://www.procuri.ai/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
